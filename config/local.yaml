@@ -1,5 +1,5 @@
 env: "local" # local, dev, prod (окружение в котором запускают)
-storage_path: "" # путь до файла, где будет храниться бд
+storage_path: "./storage.db" # путь до файла, где будет храниться бд
 http_server:
   address: "localhost:8082"
   timeout: 4s # время на чтение запроса и такое же время на отправку ответа
